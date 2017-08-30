@@ -11,10 +11,6 @@ package com.jimmy.www.headfirst.observermode;
  */
 public interface Subject {
     void registerObserver(Observer o);
-
     void removeObserver(Observer o);
-
     void notifyObServer();
-
-
 }

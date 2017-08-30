@@ -13,7 +13,7 @@ public interface Observer {
     /***
      * 更新内容
      */
-    void update(String content);
+    void login(String content);
 
     // 当然了可以在这里实现多个方法
 }
